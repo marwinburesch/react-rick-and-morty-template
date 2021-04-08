@@ -34,6 +34,9 @@ BONUS:
 #### React Router:
 
 - [React Router DOM docs](https://reactrouter.com/web/guides/quick-start)
+- [Logrocket React Router Hooks](https://blog.logrocket.com/react-router-hooks-will-make-your-component-cleaner/#:~:text=React%20Router%20is%20a%20lightweight,%2C%20location%20%2C%20and%20history%20props.)
+- [Intro to React Router Hooks](https://javascript.plainenglish.io/introduction-to-react-router-hooks-ffdd09c91fa2)
+- YouTube [React Router Hooks](https://www.youtube.com/watch?v=aHv_3g2Fw8A)
 
 #### Net Ninja Videos:
 
