@@ -6,6 +6,8 @@ The goal of this exercise is to use ReactRouter as well as connect an external A
 
 Let's create an app using the [Rick and Morty API](https://rickandmortyapi.com/)
 
+## Exercise description
+
 - Create the pages mentioned below, and implement the features mentioned in `rick-and-morty-app.png` or the excalidraw file
 - Plan your approach, take small steps
 - Explore the API before getting started!
@@ -22,7 +24,7 @@ The features proposed in the design documents are:
 | all caracters | `/characters`     | fetch and list characters (more button), each one clickable |
 | one caracters | `/characters/:id` | character details, fetch more info (i.e. `/characters/1`)   |
 
-BONUS:
+### BONUS:
 
 - The all caracters page (`/characters`) can filter by `name` and/or `status`
 
