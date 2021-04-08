@@ -1,3 +1,42 @@
+# Rick & Morty App
+
+The goal of this exercise is to use ReactRouter as well as connect an external API to a React app 🎉!\
+
+Let's create an app using the (Rick and Morty API)[https://rickandmortyapi.com/]
+
+There are some wireframes in the `design` directory, an overview of the whole app with explanations, as well as an `.excalidraw` file. If you want to open the file, head to www.excalidraw.com, click the "Open" button and select it.
+
+The features proposed in the design documents are:
+
+| page          | url               | purpose                                                     |
+| ------------- | ----------------- | ----------------------------------------------------------- |
+| home          | `/`               | main page, welcome message, entry point                     |
+| all caracters | `/characters`     | fetch and list characters (more button), each one clickable |
+| one caracters | `/characters/:id` | character details, fetch more info (i.e. `/characters/1`)   |
+
+BONUS:
+
+- The all caracters page (`/characters`) can filter by `name` and/or `status`
+
+## Tips
+
+- Look at the wireframes and plan your approach. Smaller tasks are easier to finish
+- Aim to work with branches, usually per component, per page, per task etc. Split work up into tasks
+- Before you get started try to think about what some components could be and what they are supposed to do
+- Every now and then, take some time to look at the bigger picture and which steps are coming up next
+
+- Don't forget to change the CSS ruleset for `.App`, or feel free to remove it all together, and come up with your own naming convention
+
+## Resources
+
+## Git Guide
+
+Here is an _example_ approach with git branches. Just as a guideline on how to split the whole project into smaller steps with corresponding branch names, to make it a bit easier for you to use git in this project. This is just _one_ way of doing it :)
+
+1. Setup App (branchname: `setup`)
+   - Install ReactRouter package
+   - Add basic app structure (i.e. )
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
