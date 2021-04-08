@@ -1,5 +1,7 @@
 # Rick & Morty App
 
+![exercise cover](design/rick-and-morty-app-cover.png)
+
 The goal of this exercise is to use ReactRouter as well as connect an external API to a React app 🎉!\
 
 Let's create an app using the (Rick and Morty API)[https://rickandmortyapi.com/]
