@@ -4,7 +4,7 @@
 
 The goal of this exercise is to use ReactRouter as well as connect an external API to a React app 🎉!
 
-Let's create an app using the (Rick and Morty API)[https://rickandmortyapi.com/]
+Let's create an app using the [Rick and Morty API](https://rickandmortyapi.com/)
 
 There are some wireframes in the `design` directory, an overview of the whole app with explanations, as well as an `.excalidraw` file. If you want to open the file, head to www.excalidraw.com, click the "Open" button and select it.
 
