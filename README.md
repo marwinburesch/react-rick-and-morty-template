@@ -1,4 +1,4 @@
-# Rick & Morty App
+# Rick & Morty App - with API and ReactRouter
 
 ![exercise cover](design/rick-and-morty-app-cover.png)
 
