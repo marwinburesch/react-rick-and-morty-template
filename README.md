@@ -6,6 +6,12 @@ The goal of this exercise is to use ReactRouter as well as connect an external A
 
 Let's create an app using the [Rick and Morty API](https://rickandmortyapi.com/)
 
+- Create the pages mentioned below, and implement the features mentioned in `rick-and-morty-app.png` or the excalidraw file
+- Plan your approach, take small steps
+- Explore the API before getting started!
+  - See what it returns and what the data looks like
+  - It's recommended to install a browser extension like JSON Viewer
+
 There are some wireframes in the `design` directory, an overview of the whole app with explanations, as well as an `.excalidraw` file. If you want to open the file, head to www.excalidraw.com, click the "Open" button and select it.
 
 The features proposed in the design documents are:
