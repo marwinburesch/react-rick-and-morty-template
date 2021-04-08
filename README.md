@@ -29,15 +29,56 @@ BONUS:
 
 - Don't forget to change the CSS ruleset for `.App`, or feel free to remove it all together, and come up with your own naming convention
 
-## Resources
+### Resources
 
-## Git Guide
+#### React Router:
 
-Here is an _example_ approach with git branches. Just as a guideline on how to split the whole project into smaller steps with corresponding branch names, to make it a bit easier for you to use git in this project. This is just _one_ way of doing it :)
+- [React Router DOM docs](https://reactrouter.com/web/guides/quick-start)
+
+#### Net Ninja Videos:
+
+- [Intro](https://www.youtube.com/watch?v=aZGzwEjZrXc)
+- [Exact match routes](https://www.youtube.com/watch?v=EmUa_tcSM-k)
+- [Router Links](https://www.youtube.com/watch?v=DO-pSysGItQ)
+
+#### Create React App:
+
+- [Getting Started | Create React App](https://create-react-app.dev/docs/getting-started/)
+
+#### npm packages:
+
+- [NPM](https://www.npmjs.com)
+- [Semver (Semantic Versioning)](https://semver.org/)
+- [Semantic versioning for npm packages](https://github.com/npm/node-semver#versions)
+
+### Git Guide
+
+Here is a partial _example_ approach with branches. Just as a guideline on how to split the whole project into smaller steps with corresponding branch names, to make it a bit easier for you to use git in this project. This is just _one_ way of doing it :).
+
+Follow the GitHub Flow
+
+#### Once a step is finished:
+
+1. `push`,
+1. create a pull request on GitHub (maybe share it and get a review, definitely do a review for yourself),
+1. `merge`,
+1. synchronize your local machine and move to the next branch
+
+#### Here's an examlpe workflow:
 
 1. Setup App (branchname: `setup`)
    - Install ReactRouter package
-   - Add basic app structure (i.e. )
+   - Add basic app structure (i.e. simple layout/app container, router, rough main page)
+   - General things/infrastructure you need to get started with adding components
+1. Basic components (branchname: `header`, `layout` or even `setup/basic-components`)
+   - Plan basic components such as navigation, header, layout, footer(?), buttons etc.
+   - Add components one by one, try to make rather more commits than less. (markup, styling, logic etc.) <-per component
+   - Try to keep components simple, if a component is bigger or has a bigger impact on the app use a separate branch
+1. Assemble pages (branchname: `page/caracters`, `character-page`, `detailspage` etc.)
+   - Adding a page should affect more files, since you need to add a route and create the page with your existing components, maybe even add a components or two. Try to have a branch per page
+1. Refine your app (branchname: `refactor/details-page` or `refactor-navigation`)
+   - Always keep in mind: Make it work first, then make it better.
+   - Try to leave styling details to the end
 
 # Getting Started with Create React App
 
